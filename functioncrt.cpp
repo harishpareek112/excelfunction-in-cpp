@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 //first we create a class In which we define some function 
 class mathfunction
@@ -49,8 +50,16 @@ class mathfunction
         else
         cout<<a+1<<endl;
    }
+   //Next we created pi 
    void pi(){
     double pi=3.141592654;
     cout<<pi<<endl;
+   }
+   //Next we created log function.which return log(number,base) value 
+   void logfun(double number,double base)
+   {
+    double result = log( (double) number)/log((double) base);
+    cout << result << endl;
+
    }
 };
